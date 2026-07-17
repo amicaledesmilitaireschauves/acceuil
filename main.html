@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AMC | Accueil</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Oswald:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fas fa-user-shield"></i>
+            <span>AMC</span>
+        </div>
+        <ul class="nav-links">
+            <li><a href="main.html" class="active"><i class="fas fa-home"></i> Accueil</a></li>
+            <li><a href="actualites.html"><i class="fas fa-newspaper"></i> Actualité</a></li>
+            <li><a href="goodies.html"><i class="fas fa-gift"></i> Goodies</a></li>
+            <li><a href="photos.html"><i class="fas fa-images"></i> Photos</a></li>
+            <li><a href="evenements.html"><i class="fas fa-calendar-alt"></i> Événements</a></li>
+        </ul>
+        <div class="nav-toggle">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="hero-content">
+            <h1>Bienvenue à l'Amicale<br>des Militaires Chauves</h1>
+            <p>Fraternité. Engagement. Excellence.</p>
+            <a href="evenements.html" class="hero-btn">Voir les événements à venir</a>
+        </div>
+    </header>
+
+    <section class="intro">
+        <div class="container">
+            <h2>Notre Mission</h2>
+            <div class="intro-grid">
+                <div class="intro-card">
+                    <i class="fas fa-handshake"></i>
+                    <h3>Solidarité</h3>
+                    <p>Un réseau de soutien entre militaires chauves, où l'entraide prime.</p>
+                </div>
+                <div class="intro-card">
+                    <i class="fas fa-users"></i>
+                    <h3>Communauté</h3>
+                    <p>Rassembler ceux qui partagent cette singularité et en faire une force.</p>
+                </div>
+                <div class="intro-card">
+                    <i class="fas fa-flag"></i>
+                    <h3>Engagement</h3>
+                    <p>Transcender les grades et les fonctions pour une fraternité authentique.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="mission-statement">
+        <div class="container">
+            <blockquote>
+                <i class="fas fa-quote-left"></i>
+                <p>L'uniformité nous rassemble, la calvitie nous distingue.</p>
+            </blockquote>
+        </div>
+    </section>
+
+    <section class="news-preview">
+        <div class="container">
+            <h2>Dernières Actualités</h2>
+            <div class="news-grid">
+                <article class="news-card">
+                    <span class="news-date"><i class="fas fa-calendar"></i> A venir</span>
+                    <h3>A venir</h3>
+                    <p>A venir</p>
+                    <a href="actualites.html">Lire la suite →</a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>AMC</h3>
+                <p>Amicale des Militaires Chauves</p>
+                <p>Transcendant les grades et les fonctions</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens Rapides</h3>
+                <ul>
+                    <li><a href="main.html">Accueil</a></li>
+                    <li><a href="actualites.html">Actualité</a></li>
+                    <li><a href="evenements.html">Événements</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p><i class="fas fa-envelope"></i> contact@amc-militaires.fr</p>
+                <p><i class="fas fa-phone"></i> 01 23 45 67 89</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Amicale des Militaires Chauves. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.querySelector('.nav-toggle').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
