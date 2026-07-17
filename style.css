@@ -423,10 +423,9 @@ ul {
 }
 
 .pdf-content {
-    text-align: center;
+    text-align: justify;
     max-width: 800px;
     margin: 0 auto;
-    text-align: center;
 }
 
 /* --- News Preview --- */
